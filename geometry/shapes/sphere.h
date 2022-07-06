@@ -46,7 +46,7 @@ void initialize( struct Sphere* sphere );
 
 ///////////////////////////////////////////////////////////////////////////////
 //
-//  Function name: calculateSphereVolume
+//  Function name: calculate_sphere_volume
 //
 //  Parameters:
 //    double a_radius
@@ -60,11 +60,11 @@ void initialize( struct Sphere* sphere );
 //  Will calculate and return the volume of a sphere.
 //
 ///////////////////////////////////////////////////////////////////////////////
-double calculateSphereVolume( double a_radius );
+double calculate_sphere_volume( double a_radius );
 
 ///////////////////////////////////////////////////////////////////////////////
 //
-//  Function name: calculateSphereSurfaceArea
+//  Function name: calculate_sphere_surface_area
 //
 //  Parameters:
 //    double a_radius
@@ -78,4 +78,4 @@ double calculateSphereVolume( double a_radius );
 //  Will calculate and return the surface area of a sphere.
 //
 ///////////////////////////////////////////////////////////////////////////////
-double calculateSphereSurfaceArea( double a_radius );
+double calculate_sphere_surface_area( double a_radius );

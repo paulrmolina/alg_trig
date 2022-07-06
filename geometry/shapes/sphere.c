@@ -21,30 +21,30 @@
 ///////////////////////////////////////////////////////////////////////////////
 void initialize( struct Sphere* sphere )
 {
-   sphere->volume       = calculateSphereVolume( sphere->radius );
-   sphere->surface_area  = calculateSphereSurfaceArea( sphere->radius );
+   sphere->volume       = calculate_sphere_volume( sphere->radius );
+   sphere->surface_area  = calculate_sphere_surface_area( sphere->radius );
 }
 
 ///////////////////////////////////////////////////////////////////////////////
 //
-//  Function name: calculateSphereVolume
+//  Function name: calculate_sphere_volume
 //
 //  Description: See header file
 //
 ///////////////////////////////////////////////////////////////////////////////
-double calculateSphereVolume( double a_radius )
+double calculate_sphere_volume( double a_radius )
 {
    return ( 4.0 / 3.0 ) * M_PI * pow( a_radius, 3.0 );
 }
 
 ///////////////////////////////////////////////////////////////////////////////
 //
-//  Function name: calculateSphereSurfaceArea
+//  Function name: calculate_sphere_surface_area
 //
 //  Description: See header file
 //
 //////////////////////////////////////////////////////////////////////////////
-double calculateSphereSurfaceArea( double a_radius )
+double calculate_sphere_surface_area( double a_radius )
 {
    return 4.0 * M_PI * pow( a_radius, 2.0 );
 }
