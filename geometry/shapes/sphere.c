@@ -1,10 +1,11 @@
 //#############################################################################
 //
-//  Author:  Paul Molina
-//  Date:    July 2020
-//  Version: 0.1
+//  Author:   Paul Molina
+//  Date:     July 2020
+//  Version:  0.1
+//  Filename: sphere.c
 //
-//  Description:
+//  -- Description --
 //
 //  See header file
 //
@@ -21,7 +22,7 @@
 ///////////////////////////////////////////////////////////////////////////////
 void initialize( struct Sphere* sphere )
 {
-   sphere->volume       = calculate_sphere_volume( sphere->radius );
+   sphere->volume        = calculate_sphere_volume( sphere->radius );
    sphere->surface_area  = calculate_sphere_surface_area( sphere->radius );
 }
 
